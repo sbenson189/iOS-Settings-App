@@ -11,7 +11,7 @@
         <!--Settings-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell1" id="Hnq-8p-HnL" customClass="TableViewCell1" customModule="SettingsApp2" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell1" id="Hnq-8p-HnL" customClass="TableViewCell1" customModule="SettingApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hnq-8p-HnL" id="136-mH-X9Q">
@@ -46,7 +46,7 @@
                                             <outlet property="sectionOneLabel" destination="haF-Qb-eo5" id="zic-7U-3h8"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" id="rmU-TG-C9Q" customClass="TableViewCell2" customModule="SettingsApp2" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" id="rmU-TG-C9Q" customClass="TableViewCell2" customModule="SettingApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rmU-TG-C9Q" id="x4j-x1-OGt">
@@ -71,7 +71,7 @@
                                             <outlet property="sectionTwoLabel" destination="XaH-oC-gTB" id="2hp-YB-iYv"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell3" id="UKW-N3-Yay" customClass="TableViewCell3" customModule="SettingsApp2" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell3" id="UKW-N3-Yay" customClass="TableViewCell3" customModule="SettingApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="115" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UKW-N3-Yay" id="5f2-yN-IeJ">
@@ -140,7 +140,7 @@
         <!--General View Controller-->
         <scene sceneID="YxM-fI-Xuo">
             <objects>
-                <viewController storyboardIdentifier="general" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7rh-tT-btn" customClass="GeneralViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="general" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7rh-tT-btn" customClass="GeneralViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hSb-jD-lGz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,7 +164,7 @@
         <!--Passwords View Controller-->
         <scene sceneID="0ef-Ke-3Ed">
             <objects>
-                <viewController storyboardIdentifier="passwords" useStoryboardIdentifierAsRestorationIdentifier="YES" id="91V-Tu-3Vz" customClass="PasswordsViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="passwords" useStoryboardIdentifierAsRestorationIdentifier="YES" id="91V-Tu-3Vz" customClass="PasswordsViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ik6-5y-fHk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,7 +188,7 @@
         <!--Maps View Controller-->
         <scene sceneID="K51-Gh-tD0">
             <objects>
-                <viewController storyboardIdentifier="maps" useStoryboardIdentifierAsRestorationIdentifier="YES" id="02S-B4-epf" customClass="MapsViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="maps" useStoryboardIdentifierAsRestorationIdentifier="YES" id="02S-B4-epf" customClass="MapsViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LNj-ih-nG5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,7 +212,7 @@
         <!--Accessibility View Controller-->
         <scene sceneID="tUj-g8-XGb">
             <objects>
-                <viewController storyboardIdentifier="accessibility" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0AW-Rb-ESa" customClass="AccessibilityViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="accessibility" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0AW-Rb-ESa" customClass="AccessibilityViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CAc-aR-5GX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -236,7 +236,7 @@
         <!--Safari View Controller-->
         <scene sceneID="Pch-Qm-cm3">
             <objects>
-                <viewController storyboardIdentifier="safari" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ov9-QE-U2x" customClass="SafariViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="safari" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ov9-QE-U2x" customClass="SafariViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lfh-0q-C9q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -260,7 +260,7 @@
         <!--Shortcuts View Controller-->
         <scene sceneID="asb-f7-XIs">
             <objects>
-                <viewController storyboardIdentifier="shortcuts" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oa0-2y-vRM" customClass="ShortcutsViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="shortcuts" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oa0-2y-vRM" customClass="ShortcutsViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k1x-pL-yD5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -302,7 +302,7 @@
         <!--Privacy View Controller-->
         <scene sceneID="x0K-VJ-p25">
             <objects>
-                <viewController storyboardIdentifier="privacy" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j63-EO-tcz" customClass="PrivacyViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="privacy" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j63-EO-tcz" customClass="PrivacyViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vq2-HK-swD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,7 +326,7 @@
         <!--News View Controller-->
         <scene sceneID="Tgz-P7-9Yv">
             <objects>
-                <viewController storyboardIdentifier="news" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XOd-UK-rz2" customClass="NewsViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="news" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XOd-UK-rz2" customClass="NewsViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Ik-Id-eGM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -350,7 +350,7 @@
         <!--Health View Controller-->
         <scene sceneID="Oum-nX-6t3">
             <objects>
-                <viewController storyboardIdentifier="health" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zuJ-PR-dYl" customClass="HealthViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="health" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zuJ-PR-dYl" customClass="HealthViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mFW-1f-Vph">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -374,7 +374,7 @@
         <!--Siri And Search View Controller-->
         <scene sceneID="kI7-Fp-Od7">
             <objects>
-                <viewController storyboardIdentifier="siriAndSearch" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GQ4-XY-F28" customClass="SiriAndSearchViewController" customModule="SettingsApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="siriAndSearch" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GQ4-XY-F28" customClass="SiriAndSearchViewController" customModule="SettingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WxP-l3-BH6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
